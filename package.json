@@ -1,0 +1,18 @@
+{
+  "name": "smart-mute",
+  "version": "1.0.0",
+  "description": "Only plays sound on most recently active tab.",
+  "author": "sesgoe",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel watch src/manifest.json --host localhost --config @parcel/config-webextension",
+    "build": "parcel build src/manifest.json --config @parcel/config-webextension"
+  },
+  "devDependencies": {
+    "@parcel/config-webextension": "^2.7.0",
+    "@types/chrome": "^0.0.193",
+    "@types/firefox": "^0.0.31",
+    "parcel": "^2.7.0",
+    "typescript": "^4.7.4"
+  }
+}
